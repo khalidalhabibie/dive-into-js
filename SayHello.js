@@ -75,6 +75,15 @@ var helloAno  = function(){
 helloAno()
 
 
+// set time out 
+var helloTimeoutFunc = function(){
+    console.log("Helllo time out")
+}
+
+setTimeout(helloTimeoutFunc, 2000)
+
+
+
 
 
 
