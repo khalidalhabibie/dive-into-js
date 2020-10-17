@@ -68,7 +68,20 @@ function sayHello(magicWord){
 // call function 
 console.log(sayHello("Word"))
 
-   
+// anonym function 
+var helloAno  = function(){
+    console.log("function ano")
+}
+helloAno()
+
+
+// set time out 
+var helloTimeoutFunc = function(){
+    console.log("Helllo time out")
+}
+
+setTimeout(helloTimeoutFunc, 2000)
+
 
 
 
