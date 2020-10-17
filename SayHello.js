@@ -68,7 +68,11 @@ function sayHello(magicWord){
 // call function 
 console.log(sayHello("Word"))
 
-   
+// anonym function 
+var helloAno  = function(){
+    console.log("function ano")
+}
+helloAno()
 
 
 
